@@ -8,7 +8,7 @@ function LoadMore() {
   
   const { ref, inView } = useInView();
   const [data, setdata] = useState([]);
-  // const [key, setKey] = useState(0);
+
   var key = 0;
 
     const fetchAnime = async (page) => {
@@ -24,7 +24,6 @@ function LoadMore() {
     if (inView) {
       fetchAnime(page).then((res) => {
         setdata([...data, ...res]);
-        // setKey(key+25)
         page++;
       });
     }
