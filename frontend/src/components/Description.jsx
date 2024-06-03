@@ -31,15 +31,6 @@ const options1 = {
     'X-RapidAPI-Host': 'myanimelist-api1.p.rapidapi.com'
   }
 };
-// const options = {
-//   method: 'GET',
-//   url: 'https://myanimelist-api1.p.rapidapi.com/anime/21',
-//   headers: {
-//     'X-RapidAPI-Key': 'afbbacbdfemsh8f021ce6bbf61e1p162b14jsnff53f26097d5',
-//     'X-RapidAPI-Host': 'myanimelist-api1.p.rapidapi.com'
-//   }
-// };
-
 
 useEffect(()=>{
   info1();
